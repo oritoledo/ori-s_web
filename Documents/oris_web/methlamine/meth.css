@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    width: 100%;
+    background-color: #E60790;
+}
+.logo{
+    position: absolute;
+    right: 94%;
+    top: 6vh;
+    color: white;
+    font-family: "Bebas Neue";
+}
+
+.navi{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 60%;
+    font-family: "Cabin";
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.navi li{
+    background-color: #E60790;
+    height: 6vh;
+    width: 90%;
+    margin: 10% auto;
+    border: solid 2px white;
+    border-radius: 30%
+    
+
+    
+
+}
+.navi li a{
+    text-decoration: none;
+    color: white;        
+}
+
+
+ img{
+     position: absolute;
+     margin: 20% 80% 80% 10%;
+ }
+
+ .welcome {
+     display: relative;
+     font-weight: 20%;
+
+ }
+
